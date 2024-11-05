@@ -7,16 +7,22 @@
     <script>
         let a =10
         let b ="ram"
-        let c = true
+        let c = 45.6
+        let d =true
+        let e =["ram",45,true,56.6] //array
+        let f={ //object
+            name:"ram",
+            city:"gwalior",
+            phone:9340743315,
+            pn: ["raj", 56, true],
+            user:function(){
+                document.write("hello gwalior")
+            }
+        }
+        document.write(f.pn)
+        f.user()
+        console.log(f)
 
-        let d =["ram",45,true,56.6] //array
-        let e =45.6
-
-        document.write(a , typeof(a) , "<br>")
-        document.write(b , typeof(b) , "<br>")
-        document.write(c , typeof(c) , "<br>")
-        document.write(d , typeof(d) , "<br>")
-        document.write(e , typeof(e) , "<br>")
 
 </script>
 </head>
